@@ -20,7 +20,7 @@ ul{
 li{
     all: unset;
     display: inline-block;
-    width: 20%;
+    width: 19%;
     height: 100%;
     border: 1px solid green;
     text-align: center;

@@ -1,6 +1,6 @@
 import React from "react";
 // import { useState } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../assets/styles/header.css";
 
 function Header() {
@@ -8,10 +8,21 @@ function Header() {
     <header>
       <nav>
         <ul>
-          <li>About Me</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/resume">Resume</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/about">About Me</Link>
+          </li>
         </ul>
       </nav>
     </header>
