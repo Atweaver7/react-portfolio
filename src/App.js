@@ -7,6 +7,7 @@ import Body from "./components/Body";
 import AboutMe from "./components/About-me";
 import Contact from "./components/Contact"
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 // import Background from "./components/Background";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/portfolio">
               <Portfolio/>
+          </Route>
+          <Route path="/resume">
+              <Resume/>
           </Route>
           <Route path="/">
               <Body/>

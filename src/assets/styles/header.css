@@ -1,5 +1,4 @@
 header{
-    border: 1px solid red;
     width: 100%;
     height: 50px;
 }
@@ -8,13 +7,11 @@ header{
 nav{
     width: 50%;
     height: 100%;
-    border: 1px solid green;
 }
 
 ul{
     width: 100%;
     height: 100%;
-    border: 1px solid coral;
 }
 
 li{
@@ -22,6 +19,14 @@ li{
     display: inline-block;
     width: 19%;
     height: 100%;
-    border: 1px solid green;
     text-align: center;
+}
+
+.portfolio-title {
+    color: white;
+    border-bottom: white 5px groove;
+}
+
+.nav-panel {
+    padding-bottom: 5%;
 }

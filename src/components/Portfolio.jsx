@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import "../assets/styles/header.css";
 import ProjectCard from "./ProjectCard";
 import img1 from "../assets/pictures/BartenderBlitz.png";
-import img2 from "../assets/pictures/BartenderBlitz.png";
-import img3 from "../assets/pictures/BartenderBlitz.png";
-import img4 from "../assets/pictures/BartenderBlitz.png";
+import img2 from "../assets/pictures/Budget-Tracker.jpeg";
+import img3 from "../assets/pictures/Note-Taker.gif";
+import img4 from "../assets/pictures/Employee-Tracker.gif";
 import img5 from "../assets/pictures/BartenderBlitz.png";
 import img6 from "../assets/pictures/BartenderBlitz.png";
 
@@ -17,13 +17,13 @@ function Portfolio() {
       title: "Budget Tracker",
       description:
         "A simple app created for use on or offline.  Use to keep track of your incoming and outgoing cash.",
-      img: "",
+      img: img2,
     },
     {
       title: "Note Taker",
       description:
         "A lightweight app to take notes",
-      img: "",
+      img: img3,
     },
     {
       title: "Bartender Blitz",
@@ -47,13 +47,13 @@ function Portfolio() {
       title: "Employee Tracker",
       description:
         "An app created for small business owners to keep track of departments / employees / salaries.",
-      img: "",
+      img: img4,
     },
   ];
 
   return (
     <div className="container" >
-      <h1 className="portfolio-title"> My Work </h1>
+      <h1 className="portfolio-title text-center"> My Work </h1>
       <div className="row">
         {cards.map((currentValue, index) => {
           return (

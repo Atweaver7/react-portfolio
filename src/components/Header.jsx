@@ -5,7 +5,7 @@ import "../assets/styles/header.css";
 
 function Header() {
   return (
-    <header>
+    <header className="text-center nav-panel">
       <nav>
         <ul>
           <li>
