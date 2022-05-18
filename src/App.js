@@ -7,6 +7,7 @@ import Body from "./components/Body";
 import AboutMe from "./components/About-me";
 import Contact from "./components/Contact"
 import Portfolio from "./components/Portfolio";
+// import Background from "./components/Background";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,6 +18,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        {/* <Background/> */}
 
         <Switch>
           <Route path="/about">

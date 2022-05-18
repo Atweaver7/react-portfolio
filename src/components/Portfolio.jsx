@@ -3,6 +3,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/styles/header.css";
 import ProjectCard from "./ProjectCard";
+import img1 from "../assets/pictures/BartenderBlitz.png";
+import img2 from "../assets/pictures/BartenderBlitz.png";
+import img3 from "../assets/pictures/BartenderBlitz.png";
+import img4 from "../assets/pictures/BartenderBlitz.png";
+import img5 from "../assets/pictures/BartenderBlitz.png";
+import img6 from "../assets/pictures/BartenderBlitz.png";
+
 
 function Portfolio() {
   let cards = [
@@ -22,7 +29,7 @@ function Portfolio() {
       title: "Bartender Blitz",
       description:
         "An app designed to help you pick a drink depending on what type of liquor you have available.",
-      img: "",
+      img: img1
     },
     {
       title: "TFT Compare",
@@ -45,9 +52,9 @@ function Portfolio() {
   ];
 
   return (
-    <div class="container" >
+    <div className="container" >
       <h1 className="portfolio-title"> My Work </h1>
-      <div class="row">
+      <div className="row">
         {cards.map((currentValue, index) => {
           return (
             <ProjectCard
