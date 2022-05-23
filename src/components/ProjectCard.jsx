@@ -10,9 +10,9 @@ function ProjectCard(props) {
   return (
     <div className="col-md-6 card ">
       <div className="">
-        <h2 className="text-center portfolio-title">{props.title}</h2>
+        <h2 className="text-center  portfolio-title">{props.title}</h2>
         <p className="text-center">{props.description}</p>
-        <img className="img-responsive" src={props.img} alt={props.img}></img>
+        <img className="img-responsive rounded" src={props.img} alt={props.img}></img>
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ import img1 from "../assets/pictures/BartenderBlitz.png";
 import img2 from "../assets/pictures/Budget-Tracker.jpeg";
 import img3 from "../assets/pictures/Note-Taker.gif";
 import img4 from "../assets/pictures/Employee-Tracker.gif";
-import img5 from "../assets/pictures/BartenderBlitz.png";
-import img6 from "../assets/pictures/BartenderBlitz.png";
+import img5 from "../assets/pictures/TFT-Compare.png";
+import img6 from "../assets/pictures/Quiz.png";
 
 
 function Portfolio() {
@@ -35,13 +35,13 @@ function Portfolio() {
       title: "TFT Compare",
       description:
         "An app created to compare two players in the League of Legends spinoff Team FIght Tactics.  A score is awarded bases on current stats and a winner is calculated.",
-      img: "",
+      img: img5,
     },
     {
       title: "Coding Quiz!",
       description:
         "A quick a fun quiz app built with basic JS / HTML / CSS",
-      img: "",
+      img: img6,
     },
     {
       title: "Employee Tracker",

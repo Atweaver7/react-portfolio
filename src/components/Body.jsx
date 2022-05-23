@@ -9,8 +9,8 @@ function Body(){
       
     return(
     <main>
-        <div>
-         <p>Hi, My name is Aaron and I am a deveoper.</p>   
+        <div className="top bottom">
+         <p className="text-center">Hi, My name is Aaron and I am a deveoper.</p>   
          <img src={coverImage} className="my-2 img-responsive" style={{ width: "100%" }} alt="cover" />
     
         </div>
