@@ -10,7 +10,7 @@ function Body(){
     return(
     <main>
         <div className="top bottom">
-         <p className="text-center">Hi, My name is Aaron and I am a deveoper.</p>   
+         <p className="text-center">Hi, my name is Aaron and I am a developer.</p>   
          <img src={coverImage} className="my-2 img-responsive" style={{ width: "100%" }} alt="cover" />
     
         </div>

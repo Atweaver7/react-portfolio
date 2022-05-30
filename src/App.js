@@ -34,9 +34,7 @@ function App() {
           </Route>
           <Route path="/resume">
               <Resume/>
-          </Route>
-          
-          
+          </Route>      
           <Route path="/">
               <Body/>
           </Route>
